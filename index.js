@@ -11,7 +11,7 @@ let yellow = chalk.bold.yellow;
 let white = chalk.bold.white;
 
 var start = () => {
-    console.log(chalk.blue("-----Welcome To Game-----"));
+    console.log(chalk.blue("-----Welcome To the Game-----"));
     var name = rs.question(yellow("Enter Your Name : "));
     console.log(green("Hello "+name));
     console.log(white("There will be 5 Question"));
